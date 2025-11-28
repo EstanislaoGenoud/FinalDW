@@ -1,0 +1,22 @@
+.carousel-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .carousel-item img {
+    height: 500px;
+    object-fit: cover;
+    image-rendering: crisp-edges;
+  }
+  @media (max-width: 768px) {
+    .carousel-item img {
+      height: 300px;
+    }
+  }
+  #marcasBanner .carousel-indicators,
+  #marcasBanner .carousel-control-prev,
+  #marcasBanner .carousel-control-next {
+    display: none;
+  }

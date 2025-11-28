@@ -1,13 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Genoud Distribuciones</title>
-</head>
-<body>
-  <header></header>
-  <main></main>
-  <footer></footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Genoud Distribuciones</title>
+    <link rel="icon" type="image/png" href="https://placehold.co/32x32/png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Banner de horarios -->
+    <div class="alert alert-info mb-0 py-1 rounded-0" role="alert">
+      <div
+        id="horariosBanner"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="2000"
+      >
+        <div class="carousel-inner text-center" style="font-size: 0.9rem">
+          <div class="carousel-item active">
+            <strong>Lunes a Viernes:</strong> 7:30 a 15:00
+          </div>
+          <div class="carousel-item">
+            <strong>Sábados:</strong> 7:30 a 14:00
+          </div>
+          <div class="carousel-item">
+            <strong>Contacto:</strong> 11-1234-5678
+          </div>
+        </div>
+      </div>
+    </div>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a href="#" class="navbar-brand">
+          <img src="https://placehold.co/50x50/png" alt="IMAGEN ILUSTRATIVA" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-item nav-link active" href="#">Inicio</a>
+            <a class="nav-item nav-link" href="#">Nosotros</a>
+            <a class="nav-item nav-link" href="#">A donde llegamos</a>
+            <a
+              class="nav-item nav-link disabled"
+              href="#"
+              tabindex="-1"
+              aria-disabled="true"
+              >Contacto</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Hero con Carousel -->
+      <section id="heroEmpresa" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <img
+              src="./assets/logistica5.webp"
+              class="d-block w-100"
+              alt="Logística eficiente"
+              style="height: 500px; object-fit: cover"
+            />
+            <div
+              class="carousel-caption d-flex align-items-center justify-content-center h-100"
+            >
+              <div class="text-center">
+                <h1 class="display-4 fw-bold">Genoud Distribuciones</h1>
+                <p class="lead bg-dark bg-opacity-50 p-3 rounded">
+                  Soluciones de distribución eficientes y confiables
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <img
+              src="./assets/logistica4.avif"
+              class="d-block w-100"
+              alt="Experiencia"
+              style="height: 500px; object-fit: cover"
+            />
+            <div
+              class="carousel-caption d-flex align-items-center justify-content-center h-100"
+            >
+              <div class="text-center ">
+                <h2 class="display-5 fw-bold ">Años de Experiencia</h2>
+                <p class="lead bg-dark bg-opacity-50 p-3 rounded">
+                  Más de 5 años satisfaciendo las necesidades de nuestros
+                  clientes
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <img
+              src="./assets/logistica3.avif"
+              class="d-block w-100"
+              alt="Cobertura nacional"
+              style="height: 500px; object-fit: cover"
+            />
+            <div
+              class="carousel-caption d-flex align-items-center justify-content-center h-100"
+            >
+              <div class="text-center">
+                <h2 class="display-5 fw-bold">Cobertura Total</h2>
+                <p class="lead bg-dark bg-opacity-50 p-3 rounded">
+                  Distribución en todo el país con la mejor logística
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controles -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#heroEmpresa"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#heroEmpresa"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </section>
+      <!-- Banner Carrusel de Marcas -->
+      <section
+        id="marcasBanner"
+        class="carousel slide my-5"
+        data-bs-ride="carousel"
+        data-bs-interval="2000"
+      >
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div
+              class="d-flex justify-content-center align-items-center flex-wrap"
+            >
+              <img
+                src="https://placehold.co/150x80/png?text=Marca+1"
+                alt="Marca 1"
+                class="mx-3 my-2"
+                style="height: 80px; object-fit: contain"
+              />
+              <img
+                src="https://placehold.co/150x80/png?text=Marca+2"
+                alt="Marca 2"
+                class="mx-3 my-2"
+                style="height: 80px; object-fit: contain"
+              />
+              <img
+                src="https://placehold.co/150x80/png?text=Marca+3"
+                alt="Marca 3"
+                class="mx-3 my-2"
+                style="height: 80px; object-fit: contain"
+              />
+              <img
+                src="https://placehold.co/150x80/png?text=Marca+4"
+                alt="Marca 4"
+                class="mx-3 my-2 d-none d-md-block"
+                style="height: 80px; object-fit: contain"
+              />
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <div
+              class="d-flex justify-content-center align-items-center flex-wrap"
+            >
+              <img
+                src="https://placehold.co/150x80/png?text=Marca+5"
+                alt="Marca 5"
+                class="mx-3 my-2"
+                style="height: 80px; object-fit: contain"
+              />
+              <img
+                src="https://placehold.co/150x80/png?text=Marca+6"
+                alt="Marca 6"
+                class="mx-3 my-2"
+                style="height: 80px; object-fit: contain"
+              />
+              <img
+                src="https://placehold.co/150x80/png?text=Marca+7"
+                alt="Marca 7"
+                class="mx-3 my-2"
+                style="height: 80px; object-fit: contain"
+              />
+              <img
+                src="https://placehold.co/150x80/png?text=Marca+8"
+                alt="Marca 8"
+                class="mx-3 my-2 d-none d-md-block"
+                style="height: 80px; object-fit: contain"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
