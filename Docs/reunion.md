@@ -1,0 +1,10 @@
+# Primer reunion
+---
+Desarrollador: ¿Que es lo que te gustaria obtener? un sitio web en el que el usuario pueda adquirir tus productos o un lugar en el que pueda ver informacion sobre usted, marcas y/o lugar a donde llegan con la distribucion, a que publico queres apuntar? negocios mayoristas? minoristas? supermercados o fabricas?
+Cliente: Deseo realizar una pagina web informativa en la que destaquen los colores de la empresa teniendo una sinergia con el logo que es fondo blanco, con letras negras y detalles en azul. la pagina tendra que mostrar las marcas que trabajamos, las localidades a las que llegamos y un formulario de contacto. Nuestros clientes mayormente son despensas y supermercados.
+
+Desarrollador: realizaremos una barra de navegacion con la que nos permitira movernos de forma mas fluida a cada seccion.
+Encontraremos un banner superior en el que brindara informacion como horarios de atencion, numero de telefono y direccion. Un banner con imagenes o una imagen con texto persuasivo o contando la empresa. luego encontraremos una seccion de tarjetas en las que explicarà los pasos de la empresa como almacenamiento, distribucion, atencion al cliente y demas.
+Tambien encontraremos un banner movil en el que podremos ver todos los logos de las marcas que trabaja la empresa, luego un mapa y las localidades a las que llega la empresa con el reparto. por ultimo el pie de pagina en el que encontraremos unas metricas de clientes, productos y localidades, debajo un formulario de contacto en el que pedira: Nombre y apellido, nombre del negocio, un pulsador que en caso de solicitar visita del vendedor el formulario agregara un nuevo espacio donde indicar la direccion del negocio y seleccion del rango horario disponible. tambien asi en el formulario encontraran las redes sociales y un boton que lleva directamente al whatsapp de la empresa.
+---
+![BOCETO:](../Assets/Concepto1FinalDW.drawio.svg)
